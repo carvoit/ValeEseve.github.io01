@@ -1,7 +1,5 @@
-.bg-body-secondary{
-    background-color: #381730 !important;
+header {
+    margin-bottom: 0;
+    overflow: hidden;
 }
 
-.col-izquierda{
-    background-color: #4D1F40;
-}
