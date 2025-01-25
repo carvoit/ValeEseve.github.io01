@@ -7,10 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/4425dd6319.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="shortcut icon" href="./assets/imgs/ValeFavicon.png" type="image/x-icon">
 </head>
 <body>
     <header class="bg-body-secondary">
-        <h1>Valentina Segura Vargas</h1>
+        <h1 class="text-center">Valentina Segura Vargas</h1>
     </header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -20,10 +21,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Educación</a>
+                <a class="nav-link active" aria-current="page" href="#educacion">Educación</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Portafolio</a>
+                <a class="nav-link" href="#portafolio">Portafolio</a>
               </li>
             </ul>
           </div>
@@ -32,7 +33,8 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-4 col-izquierda">
+                <div class="col-12 col-md- bg-body-secondary">
+                    <img class="w-75 " src="./assets/imgs/20240305_160955.jpg" alt="Foto de Valentina">
                     <h3>CONTACTO</h3>
                     <p><i class="fa-regular fa-envelope"></i> vale.eseve@gmail.com</p>
                     <p><i class="fa-solid fa-mobile-screen"></i> +569 7907 5888</p>
@@ -52,7 +54,7 @@
                         <li>Inglés - Avanzado</li>
                     </ul>
                 </div>
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <h3>ACERCA DE MÍ</h3>
                     <p>Desarrolladora Web Full Stack en formación, apasionada por la creación de soluciones digitales funcionales y visualmente atractivas. Con experiencia en programación con JavaScript, Python, estoy enfocada en el diseño y desarrollo de aplicaciones web dinámicas.
                     <br>
@@ -71,15 +73,46 @@
                       <li>Fundamentos de programación - FT Movistar y SENCE</li>
                       <li>Introducción al desarrollo web - Academía Desafío Latam</li>
                     </ul>
-                    <h3>EDUCACIÓN</h3>
+                    <h3 id="educacion">EDUCACIÓN</h3>
                     <ul>
                       <li>Desarrollo Full Stack JavaScript - Academia Desafío Latam</li>
+                    </ul>
+                    <h3>EXPERIENCIA LABORAL</h3>
+                    <ul>
+                      <li>Desarrolladora web - Lorem Ipsum SA 20xx - 20xx</li>
                     </ul>
                 </div>
             </div>
           </div>
         <!-- PORTAFOLIO -->
         <section>
+          <hr>
+          <h3 id="portafolio" class="text-center">PORTAFOLIO</h3>
+          <article class="container">
+            <div class="row">
+              <div class="card col-12 col-md-3 m-2">
+                <a href="./portafolio_1.html" target="_blank"><img src="./assets/imgs/portafolio 1.png" class="card-img-top" alt="Página Cuppon"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card col-12 col-md-3 m-2">
+                <a href="./portafolio_2.html" target="_blank"><img src="./assets/imgs/portafolio 2.png" class="card-img-top" alt="Iguana Page"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card col-12 col-md-3 m-2">
+                <a href="./portafolio_1.html" target="_blank"><img src="./assets/imgs/portafolio 3.png" class="card-img-top" alt="Página Pluma de cuervo"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </article>
         </section>
     </main>
     <footer>
